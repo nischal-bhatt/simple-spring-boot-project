@@ -14,7 +14,8 @@ public class CourseController {
 	@GetMapping("/courses")
 	public List<Course> getAllCourses()
 	{
-		return Arrays.asList(new Course(1,"learn microservices","in29minutes"));
+		return Arrays.asList(new Course(2,"learn microservices","in28minutes"),
+				new Course(3,"learn microservices","in28minutes"));
 	}
 	
 }
